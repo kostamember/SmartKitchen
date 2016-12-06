@@ -8,7 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener{
 
@@ -28,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
 
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
 
-        Toast.makeText(this, "hey return zero", Toast.LENGTH_LONG).show();
+
 
 
 
